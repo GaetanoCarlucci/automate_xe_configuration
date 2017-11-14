@@ -1,0 +1,7 @@
+- name: Run xe command
+  hosts: asr
+  connection: local
+  gather_facts: no
+
+  roles:
+  - role: automate_xe_configuration

@@ -1,0 +1,7 @@
+subnet:
+  hosts:
+    asr:
+      ansible_host: X.X.X.X
+      ansible_user: username
+      ansible_password: password
+      command: ip access-list ext test
